@@ -1,0 +1,43 @@
+
+body {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #e5dad6;
+}
+
+.header {
+    background-color: #071a2b;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+a:hover, a:active {
+    text-decoration: underline;
+  }
+  
+
+button {
+    background-color: #eab246;
+    color: white;
+    padding: 14xp 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 16px;
+    transition-duration: 0.4s;
+}
+
+
+button:hover, button:active {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
