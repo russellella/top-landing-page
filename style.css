@@ -4,16 +4,37 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: #e5dad6;
+
+}
+
+.top {
+    background-color: #071a2b;
+    color: white;
+    padding: 20px 200px;
+    
 }
 
 .header {
     background-color: #071a2b;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 30px;
+
 }
+
+img[src="images/lecarterlogo.png"] {
+    width: 200px;
+    margin-right: auto;
+
+}
+    
 
 a:link, a:visited {
     text-decoration: none;
@@ -25,19 +46,63 @@ a:hover, a:active {
   }
   
 
+.intro {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
 button {
     background-color: #eab246;
+    border: none;
     color: white;
-    padding: 14xp 40px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 16px;
+    border-radius: 6px;
     transition-duration: 0.4s;
+    width: 200px;
+    padding: 10px;
 }
 
-
+/* Need to add styling for buttons */
 button:hover, button:active {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #a88471;
 
+}
+
+img[src="images/sqbookimage.png"] {
+    width: 300px;
+    margin-left: auto;
+    align-self: stretch;
+    padding-left: 30px;
+
+}
+
+.about {
+    padding: 20px 200px;
+    text-align: center;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 30px;
+}
+
+.graphics {
+
+}
+
+.catalog img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #a88471;
+    padding: 20px 200px;
+    text-emphasis-style: ;
 }
