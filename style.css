@@ -52,7 +52,7 @@ a:hover, a:active {
     flex: 1;
 }
 
-button {
+.intro1 button {
     background-color: #eab246;
     border: none;
     color: white;
@@ -65,10 +65,8 @@ button {
     padding: 10px;
 }
 
-/* Need to add styling for buttons */
-button:hover, button:active {
+.intro1 button:hover, button:active {
     background-color: #a88471;
-
 }
 
 img[src="images/sqbookimage.png"] {
@@ -80,7 +78,7 @@ img[src="images/sqbookimage.png"] {
 }
 
 .about {
-    padding: 20px 200px;
+    padding: 30px 200px;
     text-align: center;
 }
 
@@ -104,5 +102,57 @@ img[src="images/sqbookimage.png"] {
 .quote {
     background-color: #a88471;
     padding: 20px 200px;
-    text-emphasis-style: ;
+    text-align: right;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabox {
+    background-color: #7098c3;
+    color: white;
+    display: flex;
+    max-width: 800px;
+    flex: 1;
+    padding: 30px 100px;
+    margin: 50px 0px;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.ctabox button {
+    background-color: #7098c3;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 200px;
+    padding: 10px;
+    margin-left: auto;
+    
+}
+
+.ctabox button:hover, button:active {
+    background-color: #a88471;
+
+}
+
+.footer {
+    background-color: #071a2b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
